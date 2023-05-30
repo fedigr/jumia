@@ -1,0 +1,6 @@
+@use "../../abstract" as *;
+.navigation{
+    grid-column: span 3;
+    background-color: $white;
+    @include rounded();
+}

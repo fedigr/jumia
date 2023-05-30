@@ -1,0 +1,15 @@
+@forward "navigation";
+@forward "Aide";
+@forward "carousel";
+.main{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1fr , 12);
+    grid-template-rows: 450px;
+    column-gap: 10px;
+}
+
+.carousel{
+    grid-column: 4/10;
+    background-color: red;
+}

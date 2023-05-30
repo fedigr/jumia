@@ -1,0 +1,7 @@
+@use "../../abstract" as *;
+
+.aide{
+    grid-column: 10/13;
+    background-color: blue;
+   @include rounded();
+}

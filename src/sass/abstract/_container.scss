@@ -1,0 +1,13 @@
+@mixin sezing(){
+    height: fit-content;
+    margin: 0px auto;
+}
+.container-fill{
+    width: 100%;
+    height: fit-content;
+    margin: 0px auto;}
+.container{
+    width: 80%;
+    height: fit-content;
+    margin: 0px auto;
+}

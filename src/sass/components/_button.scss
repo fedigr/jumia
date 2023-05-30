@@ -1,0 +1,13 @@
+@use "../abstract/color" as *;
+.btn{
+    padding: 0.7rem 0.6rem;
+    cursor: pointer;
+}
+.btn-orange{
+    background-color: $orange;
+    color: $white;
+    border-radius: 0.2rem;
+}
+.btn-orange:hover{
+    background-color: $orange-dark;
+}
